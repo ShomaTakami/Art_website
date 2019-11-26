@@ -17,14 +17,14 @@
   background: var(--gradient-color);
   background-clip: padding-box;
   color: whitesmoke;
-  transition: background 0.6s ease;
+  transition: background 0.2s ease;
   box-shadow: var(--box-shadow);
 }
 
 .button.primary-button:hover {
-  background: black;
+  background: whitesmoke;
   background-clip: padding-box;
-  color: whitesmoke;
+  color: black;
 }
 
 .button.primary-button::after,

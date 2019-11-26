@@ -36,7 +36,8 @@
 
 /* banner area */
 .site-main .site-banner {
-  background: black url(../img/banner/home-banner.png) no-repeat 0% 50%;
+  background: black url(../img/banner/home2-banner.png) no-repeat 0% 50%;
+  height: 85vh;
 }
 .site-main .site-banner .site-title h3 {
   padding-top: 35%;
@@ -299,3 +300,69 @@ footer.footer-area .social a:hover > i {
   color: var(--primary-color);
 }
 /*end footer area */
+
+.manPC {
+  margin: 5rem;
+}
+
+#b-box1 {
+  animation: box1 2s ease;
+  animation-iteration-count: infinite;
+}
+#b-box2 {
+  animation: box2 2s ease;
+  animation-iteration-count: infinite;
+}
+#b-box3 {
+  animation: box3 2s ease;
+  animation-iteration-count: infinite;
+}
+#white-box {
+  animation: whitebox 2s ease;
+  animation-iteration-count: infinite;
+}
+#redcircle {
+  animation: circle 2s ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes box1 {
+  from {
+    transform: translate(0rem, 0rem);
+  }
+  to {
+    transform: translate(0.5rem, -2.7rem);
+  }
+}
+@keyframes box2 {
+  from {
+    transform: translate(0rem, 0rem);
+  }
+  to {
+    transform: translate(2rem, 2.7rem);
+  }
+}
+@keyframes box3 {
+  from {
+    transform: translate(0rem, 0rem);
+  }
+  to {
+    transform: translate(-3rem, -2rem);
+  }
+}
+@keyframes whitebox {
+  from {
+    transform: translate(0rem, 0rem);
+  }
+  to {
+    transform: translate(0rem, 2rem);
+  }
+}
+@keyframes circle {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translateY(-2rem);
+  }
+}
