@@ -98,9 +98,9 @@
                     hire me
                   </button>
                   <button
-                    type="button"
+                    type="submit"
+                    onclick="window.open('./img/portfolio/RESUMEのコピー.pdf')"
                     class="btn button secondary-button text-uppercase"
-                    onclick="window.location('./img/portfolio/RESUMEのコピー.pdf')"
                   >
                     Get CV
                   </button>
@@ -372,7 +372,8 @@
                 </p>
               </div>
               <button
-                type="button"
+                type="submit"
+                onclick="window.open('./img/portfolio/RESUMEのコピー.pdf')"
                 class="btn button primary-button text-uppercase"
               >
                 Download CV
@@ -740,7 +741,11 @@
             </div>
           </div>
           <div class="d-sm-flex justify-content-center">
-            <form class="w-50">
+            <form
+              class="w-50"
+              method="POST"
+              action="mailto:hawklook.2331@gmail.com"
+            >
               <div class="row d-flex flex-row flex-wrap">
                 <div class="col input-textbox">
                   <input
