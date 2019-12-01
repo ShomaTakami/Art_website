@@ -61,6 +61,12 @@
 
 /* if the viewport is equal to 1910px or less than that */
 @media only screen and (max-width: 1910px) {
+  .site-main {
+    width: 100vw;
+  }
+  #navbarNav {
+    display: none;
+  }
   .header_area .main-menu .navbar {
     padding: 1rem;
   }

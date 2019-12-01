@@ -33,7 +33,9 @@
   background-clip: text;
 }
 /* end nav */
-
+.site-main {
+  width: 100vw;
+}
 /* banner area */
 .site-main .site-banner {
   background: black url(../img/banner/home2-banner.png) no-repeat 0% 50%;
