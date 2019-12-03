@@ -1,14 +1,31 @@
+/* if the viewport is equal to 1910px or less than that */
+@media only screen and (max-width: 1910px) {
+  .site-main {
+    width: 100vw;
+  }
+  #navbarNav {
+    display: none;
+  }
+  .header_area .main-menu .navbar {
+    padding: 1rem;
+  }
+
+  .container {
+    max-width: 90%;
+  }
+
+  .site-main .brand-area,
+  .site-main .services-area .services-title,
+  .site-main .about-area {
+    padding: 3% 4%;
+  }
+}
+
 /* if the viewport is equal to 340px or less than that */
-@media only screen and (max-width: 340px) {
-  .header_area .main-menu .navbar,
-  .header_area .main-menu .navbar .navbar-brand,
-  .site-main .subscribe-us-area .subscribe .subscribe-title,
-  .site-main .subscribe-us-area .subscribe .subscribe-title p,
-  h4,
-  .site-main .services-area,
-  .site-main .subscribe-us-area .subscribe {
-    padding: 2%;
-    margin: 0%;
+@media only screen and (max-width: 792px) {
+  body {
+    width: 100vw;
+    height: 100vh;
   }
 
   .site-main .site-banner .site-title h1 {
@@ -22,10 +39,13 @@
   .site-main > .services-area .services {
     width: 13rem;
   }
-}
-
-/* if the viewport is equal to 340px or less than that */
-@media only screen and (max-width: 792px) {
+  .banner-image svg {
+    display: none;
+  }
+  .button-group > button {
+    padding-right: 100px;
+    text-align: center;
+  }
   .site-main .about-area .about-title h2 > span {
     font-size: 31px;
     letter-spacing: 10px;
@@ -59,25 +79,29 @@
   }
 }
 
-/* if the viewport is equal to 1910px or less than that */
-@media only screen and (max-width: 1910px) {
-  .site-main {
+/* if the viewport is equal to 340px or less than that */
+@media only screen and (max-width: 321px) {
+  body {
     width: 100vw;
+    height: 100vh;
   }
-  #navbarNav {
+
+  .site-main .site-banner .site-title h1 {
+    font-size: 41px;
+  }
+
+  .site-main .subscribe-us-area .subscribe form .input-textbox input {
+    width: 15rem;
+  }
+
+  .site-main > .services-area .services {
+    width: 13rem;
+  }
+  .banner-image svg {
     display: none;
   }
-  .header_area .main-menu .navbar {
-    padding: 1rem;
-  }
-
-  .container {
-    max-width: 90%;
-  }
-
-  .site-main .brand-area,
-  .site-main .services-area .services-title,
-  .site-main .about-area {
-    padding: 3% 4%;
+  .button-group > button {
+    padding-right: 100px;
+    text-align: center;
   }
 }

@@ -40,6 +40,7 @@
 .site-main .site-banner {
   background: black url(../img/banner/home2-banner.png) no-repeat 0% 50%;
   height: 85vh;
+  width: 100vw;
 }
 .site-main .site-banner .site-title h3 {
   padding-top: 35%;
